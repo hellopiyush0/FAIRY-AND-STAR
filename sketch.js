@@ -18,10 +18,10 @@ var snd;
 
 function preload(){
 
-  fimg = loadImage("images/fairy1.png"); 
-  nimg = loadImage("images/starnight.png"); 
-  simg = loadImage("images/star.png"); 
-  snd = loadSound("sound/joyMusic.mp3");
+  fimg = loadImage("fairy1.png"); 
+  nimg = loadImage("starnight.png"); 
+  simg = loadImage("star.png"); 
+  snd = loadSound("joyMusic.mp3");
    
 }
 
