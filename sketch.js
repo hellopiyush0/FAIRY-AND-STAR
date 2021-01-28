@@ -10,20 +10,17 @@ var s, simg;
 
 var star_options;
 
-var snd;
-
 function preload(){
 
   fimg = loadImage("fairy1.png"); 
   nimg = loadImage("starnight.png"); 
   simg = loadImage("star.png"); 
-  //snd = loadSound("joyMusic.mp3");
    
 }
 
 function setup(){
 
-	createCanvas(800, 600);
+  createCanvas(800, 600);
   
   engine = Engine.create();
   world = engine.world;
@@ -52,8 +49,6 @@ function draw(){
 
   background("black");
 
-  //snd.play();
-
   Engine.update(engine);
   s.x = star.position.x;
   s.y = star.position.y;
@@ -69,7 +64,6 @@ function draw(){
     f.x = f.x + 10;
 
   }
-  //console.log(f.x);
 
   if(f.x > 590 && f.x < 640 && s.y > 389 && s.y < 410){
 
