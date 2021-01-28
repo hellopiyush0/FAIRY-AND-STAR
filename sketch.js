@@ -1,7 +1,3 @@
-
-
-//I have just commented the sound in line 59 because when i was playing it my computer lacking each time
-
 const Engine = Matter.Engine;
 const World = Matter.World;
 const Bodies = Matter.Bodies;
@@ -21,7 +17,7 @@ function preload(){
   fimg = loadImage("fairy1.png"); 
   nimg = loadImage("starnight.png"); 
   simg = loadImage("star.png"); 
-  snd = loadSound("joyMusic.mp3");
+  //snd = loadSound("joyMusic.mp3");
    
 }
 
