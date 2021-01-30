@@ -18,7 +18,7 @@ function preload(){
   nimg = loadImage("starnight.png"); 
   simg = loadImage("star.png"); 
   
-  snd = loadSoound("joyMusic.mp3");
+  snd = loadSound("joyMusic.mp3");
 	
 }
 
