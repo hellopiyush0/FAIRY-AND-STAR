@@ -10,12 +10,16 @@ var s, simg;
 
 var star_options;
 
+var snd;
+
 function preload(){
 
   fimg = loadImage("fairy1.png"); 
   nimg = loadImage("starnight.png"); 
   simg = loadImage("star.png"); 
-   
+  
+  snd = loadSoound("joyMusic.mp3");
+	
 }
 
 function setup(){
@@ -49,6 +53,8 @@ function draw(){
 
   background("black");
 
+  snd.play();
+	
   Engine.update(engine);
   s.x = star.position.x;
   s.y = star.position.y;
